@@ -1,0 +1,9 @@
+# Simulator, tests and tools (versions used to produce the results in results/)
+numpy>=2.0            # tested 2.5.3
+pygame>=2.5           # tested 2.6.1 (GUI only; headless runs do not need a display)
+pytest>=8.0           # tested 9.1.1
+matplotlib>=3.8       # tested 3.11.2 (maze previews, CAD renders)
+ziglang>=0.13         # tested 0.16.0 - portable C++ compiler used to build the robot core for the PC
+# Optional
+platformio>=6.1       # tested 6.2.0 - firmware build/upload
+cadquery>=2.4         # tested 2.8.0 - CAD regeneration (hardware/cad/robot_cad.py)

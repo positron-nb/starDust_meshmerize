@@ -1,0 +1,30 @@
+gpio,function,direction,connected_to,electrical_notes,firmware_symbol
+36,IR array D1 (leftmost),digital in via ADC (ADC1_CH0),5-ch IR array D1,input-only pin (VP); array powered from 3V3 so its output is <= 3.3 V,pins::kSensor[0]
+39,IR array D2,digital in via ADC (ADC1_CH3),5-ch IR array D2,input-only pin (VN),pins::kSensor[1]
+34,IR array D3 (centre),digital in via ADC (ADC1_CH6),5-ch IR array D3,input-only pin,pins::kSensor[2]
+35,IR array D4,digital in via ADC (ADC1_CH7),5-ch IR array D4,input-only pin,pins::kSensor[3]
+32,IR array D5 (rightmost),digital in via ADC (ADC1_CH4),5-ch IR array D5,,pins::kSensor[4]
+33,Left wing IR,digital in via ADC (ADC1_CH5),left FC-51 OUT,FC-51 powered from 3V3; LOW over white (polarity learned in calibration),pins::kSensor[5]
+25,Right wing IR,digital in via ADC (ADC2_CH8),right FC-51 OUT,ADC2 is usable because Wi-Fi is never started,pins::kSensor[6]
+26,Battery voltage sense (optional),analog in (ADC2_CH9),VBAT -47k- GPIO26 -10k- GND,NOT FITTED by default (no resistors): build with MESH_VBAT_SENSE=1 after fitting,pins::kVbatSense
+23,Left motor PWM,output (LEDC 1 kHz for L298N),L298N ENA (ENA jumper REMOVED),,pins::kPwmA
+19,Left motor direction 1,output,L298N IN1,3.3 V logic is enough for the L298N (VIH 2.3 V),pins::kAin1
+18,Left motor direction 2,output,L298N IN2,,pins::kAin2
+14,Right motor PWM,output (LEDC 1 kHz for L298N),L298N ENB (ENB jumper REMOVED),toggles briefly at boot - a short twitch of the right motor is possible,pins::kPwmB
+5,Right motor direction 1,output,L298N IN3,strapping pin (SDIO timing only); toggles at boot,pins::kBin1
+4,Right motor direction 2,output,L298N IN4,,pins::kBin2
+13,Motor driver standby,output,not connected (TB6612 only),unused with the L298N,pins::kStby
+21,MPU6050 SDA,I2C data,MPU6050 SDA,GY-521 board has its own pull-ups,pins::kSda
+22,MPU6050 SCL,I2C clock,MPU6050 SCL,400 kHz,pins::kScl
+16,Left slot encoder (optional),input (interrupt),LM393 slot sensor D0 - not fitted,leave unconnected until encoders are added,pins::kEncL
+17,Right slot encoder (optional),input (interrupt),LM393 slot sensor D0 - not fitted,leave unconnected until encoders are added,pins::kEncR
+0,START button,input (active LOW),on-board BOOT button,board has pull-up; do NOT hold while powering on (enters download mode),pins::kButton
+15,Red end-zone LED,output (active HIGH),red LED anode (+ long leg); cathode to GND,330R in series recommended; firmware sets the weakest pin drive in case it is wired directly,pins::kLedRed
+2,Status LED,output (active HIGH),on-board blue LED,strapping pin: fine with the on-board LED,pins::kLedStatus
+1,UART0 TX,reserved,USB-serial bridge,programming and debug log,
+3,UART0 RX,reserved,USB-serial bridge,programming,
+6-11,SPI flash,reserved,module flash (not on the header),never use,
+12,unused,-,-,strapping (flash voltage): must be LOW at reset - left unconnected,
+VIN,5 V input,power,LM2596 OUT+ set to 5.0 V,on-board AMS1117 makes 3V3,
+3V3,3.3 V rail,power,IR array VCC + 2x FC-51 VCC + MPU6050 VCC,~200 mA total; never feed sensors from 5 V (their outputs would exceed 3.3 V),
+GND,ground,power,common ground with L298N GND / LM2596 OUT- / all sensors,,

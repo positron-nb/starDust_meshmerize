@@ -1,0 +1,99 @@
+{
+ "params": {
+  "wheel_d": 34.0,
+  "wheel_w": 7.0,
+  "track": 96.0,
+  "sensor_fwd": 70.0,
+  "sensor_height": 4.5,
+  "mot_w": 12.0,
+  "mot_h": 10.0,
+  "gearbox_len": 9.5,
+  "motor_len": 15.0,
+  "encoder_len": 8.0,
+  "shaft_len": 10.0,
+  "plate_t": 3.0,
+  "plate_x0": -68.0,
+  "plate_x1": 62.0,
+  "plate_half_w": 41.0,
+  "wheel_clear": 2.0,
+  "caster_x": -55.0,
+  "caster_h": 11.0,
+  "deck_gap": 22.0,
+  "deck_t": 1.6,
+  "batt_l": 72.0,
+  "batt_w": 35.0,
+  "batt_h": 16.0,
+  "qtr_l": 61.0,
+  "qtr_w": 20.0,
+  "qtr_t": 2.5,
+  "m2": 2.2,
+  "m3": 3.2
+ },
+ "checks": [
+  {
+   "check": "fits 220 x 220 x 220 mm box",
+   "pass": true,
+   "detail": "envelope 151.5 x 106.0 x 63.1 mm"
+  },
+  {
+   "check": "footprint near 150 x 140 mm target",
+   "pass": true,
+   "detail": "151.5 x 106.0 mm"
+  },
+  {
+   "check": "track width matches firmware",
+   "pass": true,
+   "detail": "96.0 mm (config.h track_width_mm)"
+  },
+  {
+   "check": "sensor line ahead of axle",
+   "pass": true,
+   "detail": "70.0 mm (config.h sensor_forward_mm)"
+  },
+  {
+   "check": "sensor height in QTR range",
+   "pass": true,
+   "detail": "4.5 mm above floor"
+  },
+  {
+   "check": "ground clearance >= 3 mm (except wheels/caster)",
+   "pass": true,
+   "detail": "ok"
+  },
+  {
+   "check": "chassis level (caster vs wheels)",
+   "pass": true,
+   "detail": "caster 0.00 mm, wheel 0.00 mm"
+  },
+  {
+   "check": "plate clears wheels",
+   "pass": true,
+   "detail": "lateral gap 3.5 mm"
+  },
+  {
+   "check": "battery clears deck",
+   "pass": true,
+   "detail": "gap 4.8 mm"
+  },
+  {
+   "check": "no unexpected interference",
+   "pass": true,
+   "detail": "ok"
+  }
+ ],
+ "interferences": [
+  {
+   "a": "motor_left",
+   "b": "wheel_left",
+   "volume_mm3": 49.5,
+   "expected_contact": true
+  },
+  {
+   "a": "motor_right",
+   "b": "wheel_right",
+   "volume_mm3": 49.5,
+   "expected_contact": true
+  }
+ ],
+ "mass_estimate_g": 179.0
+}

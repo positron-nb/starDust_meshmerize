@@ -1,0 +1,218 @@
+  0.000 STORE no valid record - starting FRESH
+  0.000 STATE BOOT -> IDLE
+  1.800 STATE IDLE -> CALIBRATING
+  3.373 CAL ok: polarity mask (1 = high over black) 0x007f
+  3.373 CAL ok
+  3.373 STATE CALIBRATING -> IDLE
+  3.634 STATE IDLE -> ARMED
+  4.334 STATE ARMED -> DRY_RUN
+  4.963 EVENT JUNCTION L1 S0 R1 at s=282 (bar 29 mm, entry offset -3.7 mm) heading N
+  4.963 MAP new node 1 at (0, 282) exits=-ESW type=0
+  4.963 NAV node 1: take L (W)
+  6.112 EVENT DEAD_END L0 S0 R0 at s=265 (bar 0 mm, entry offset 0.0 mm) heading W
+  6.112 MAP new node 2 at (-265, 282) exits=-E-- type=1
+  6.112 NAV node 2: take B (E)
+  7.236 EVENT JUNCTION L0 S1 R1 at s=267 (bar 31 mm, entry offset -7.5 mm) heading E
+  7.236 NAV arrived at known node 1 (pose error 3 mm)
+  7.236 NAV node 1: take S (E)
+  8.066 EVENT JUNCTION L1 S0 R1 at s=369 (bar 29 mm, entry offset -9.0 mm) heading E
+  8.066 MAP new node 3 at (369, 282) exits=N-SW type=0
+  8.066 NAV node 3: take L (N)
+  9.305 EVENT JUNCTION L1 S0 R0 at s=287 (bar 28 mm, entry offset -0.0 mm) heading N
+ 10.542 EVENT DEAD_END L0 S0 R0 at s=307 (bar 0 mm, entry offset 0.0 mm) heading W
+ 10.542 MAP new node 4 at (62, 568) exits=-E-- type=1
+ 10.542 NAV node 4: take B (E)
+ 11.713 EVENT JUNCTION L0 S0 R1 at s=305 (bar 29 mm, entry offset -8.0 mm) heading E
+ 12.802 EVENT JUNCTION L0 S1 R1 at s=264 (bar 27 mm, entry offset -7.5 mm) heading S
+ 12.802 NAV arrived at known node 3 (pose error 23 mm)
+ 12.802 NAV node 3: take S (S)
+ 13.228 EVENT JUNCTION L1 S1 R0 at s=200 (bar 30 mm, entry offset -8.2 mm) heading S
+ 13.228 MAP new node 5 at (369, 82) exits=NES- type=0
+ 13.228 NAV node 5: take S (S)
+ 13.820 EVENT DEAD_END L0 S0 R0 at s=287 (bar 0 mm, entry offset 0.0 mm) heading S
+ 13.820 MAP new node 6 at (369, -205) exits=N--- type=1
+ 13.820 NAV node 6: take B (N)
+ 15.004 EVENT JUNCTION L0 S1 R1 at s=301 (bar 27 mm, entry offset -0.1 mm) heading N
+ 15.004 NAV arrived at known node 5 (pose error 13 mm)
+ 15.004 NAV node 5: take R (E)
+ 16.467 EVENT JUNCTION L1 S0 R1 at s=375 (bar 28 mm, entry offset -0.3 mm) heading E
+ 16.467 MAP new node 7 at (744, 82) exits=N-SW type=0
+ 16.467 NAV node 7: take L (N)
+ 16.472 REFEREE checkpoint 4 crossed (t_run=12.8s)
+ 17.734 EVENT DEAD_END L0 S0 R0 at s=316 (bar 0 mm, entry offset 0.0 mm) heading N
+ 17.734 MAP new node 8 at (744, 398) exits=--S- type=1
+ 17.734 NAV node 8: take B (S)
+ 18.934 EVENT JUNCTION L0 S1 R1 at s=320 (bar 27 mm, entry offset -1.6 mm) heading S
+ 18.934 NAV arrived at known node 7 (pose error 4 mm)
+ 18.934 NAV node 7: take S (S)
+ 19.661 EVENT JUNCTION L1 S0 R0 at s=323 (bar 28 mm, entry offset -0.0 mm) heading S
+ 20.955 EVENT JUNCTION L1 S1 R0 at s=310 (bar 27 mm, entry offset -0.0 mm) heading E
+ 20.955 MAP new node 9 at (1054, -241) exits=NE-W type=0
+ 20.955 NAV node 9: take S (E)
+ 20.960 REFEREE checkpoint 2 crossed (t_run=17.3s)
+ 21.650 EVENT JUNCTION L1 S1 R0 at s=312 (bar 28 mm, entry offset -0.0 mm) heading E
+ 21.650 MAP new node 10 at (1366, -241) exits=NE-W type=0
+ 21.650 NAV node 10: take S (E)
+ 22.388 EVENT JUNCTION L1 S0 R0 at s=332 (bar 28 mm, entry offset -0.3 mm) heading E
+ 24.386 EVENT JUNCTION L1 S1 R0 at s=628 (bar 27 mm, entry offset -0.0 mm) heading N
+ 24.386 MAP new node 11 at (1698, 387) exits=N-SW type=0
+ 24.386 EXP heading for frontier node 9 (2 steps, 1272 mm)
+ 24.386 NAV node 11: take B (S)
+ 24.394 REFEREE checkpoint 1 crossed (t_run=20.8s)
+ 26.157 EVENT JUNCTION L0 S0 R1 at s=634 (bar 27 mm, entry offset -0.5 mm) heading S
+ 27.379 EVENT JUNCTION L0 S1 R1 at s=337 (bar 28 mm, entry offset 10.2 mm) heading W
+ 27.379 NAV arrived at known node 10 (pose error 8 mm)
+ 27.379 NAV node 10: take S (W)
+ 27.918 EVENT JUNCTION L0 S1 R1 at s=317 (bar 28 mm, entry offset 0.0 mm) heading W
+ 27.918 NAV arrived at known node 9 (pose error 5 mm)
+ 27.918 NAV node 9: take R (N)
+ 29.252 EVENT JUNCTION L0 S0 R1 at s=330 (bar 27 mm, entry offset 0.0 mm) heading N
+ 30.582 EVENT JUNCTION L1 S0 R1 at s=325 (bar 29 mm, entry offset 0.3 mm) heading E
+ 30.582 MAP new node 12 at (1379, 89) exits=N-SW type=0
+ 30.582 NAV node 12: take L (N)
+ 31.860 EVENT JUNCTION L1 S0 R1 at s=297 (bar 29 mm, entry offset -1.0 mm) heading N
+ 31.860 MAP new node 13 at (1379, 386) exits=-ESW type=0
+ 31.860 EXP heading for frontier node 12 (1 steps, 297 mm)
+ 31.860 NAV node 13: take B (S)
+ 33.186 EVENT JUNCTION L0 S1 R1 at s=310 (bar 27 mm, entry offset -7.4 mm) heading S
+ 33.186 NAV arrived at known node 12 (pose error 13 mm)
+ 33.186 NAV node 12: take S (S)
+ 33.927 EVENT JUNCTION L1 S0 R1 at s=323 (bar 28 mm, entry offset -0.0 mm) heading S
+ 33.927 MAP loop closure at node 10 (odometry error 15 mm after 323 mm)
+ 33.927 EXP heading for frontier node 13 (2 steps, 626 mm)
+ 33.927 NAV node 10: take B (N)
+ 35.294 EVENT JUNCTION L1 S1 R0 at s=339 (bar 29 mm, entry offset -7.5 mm) heading N
+ 35.294 NAV arrived at known node 12 (pose error 16 mm)
+ 35.294 NAV node 12: take S (N)
+ 35.812 EVENT JUNCTION L1 S0 R1 at s=296 (bar 28 mm, entry offset -0.3 mm) heading N
+ 35.812 NAV arrived at known node 13 (pose error 1 mm)
+ 35.812 NAV node 13: take L (W)
+ 37.082 EVENT DEAD_END L0 S0 R0 at s=320 (bar 0 mm, entry offset 0.0 mm) heading W
+ 37.082 MAP new node 14 at (1059, 386) exits=-E-- type=1
+ 37.082 NAV node 14: take B (E)
+ 38.282 EVENT JUNCTION L0 S1 R1 at s=322 (bar 27 mm, entry offset -7.5 mm) heading E
+ 38.282 NAV arrived at known node 13 (pose error 2 mm)
+ 38.282 NAV node 13: take S (E)
+ 39.024 EVENT JUNCTION L1 S0 R1 at s=331 (bar 28 mm, entry offset -0.0 mm) heading E
+ 39.024 MAP loop closure at node 11 (odometry error 12 mm after 331 mm)
+ 39.024 NAV node 11: take L (N)
+ 40.275 EVENT JUNCTION L1 S1 R0 at s=292 (bar 28 mm, entry offset -0.0 mm) heading N
+ 40.275 MAP new node 15 at (1698, 678) exits=N-SW type=0
+ 40.275 NAV node 15: take S (N)
+ 40.927 EVENT JUNCTION L1 S1 R0 at s=294 (bar 28 mm, entry offset -0.0 mm) heading N
+ 40.927 MAP new node 16 at (1698, 972) exits=N-SW type=0
+ 40.927 NAV node 16: take S (N)
+ 41.706 EVENT JUNCTION L1 S1 R0 at s=350 (bar 28 mm, entry offset -0.0 mm) heading N
+ 41.706 MAP new node 17 at (1698, 1322) exits=N-SW type=0
+ 41.706 EXP heading for frontier node 15 (2 steps, 644 mm)
+ 41.706 NAV node 17: take B (S)
+ 43.109 EVENT JUNCTION L0 S1 R1 at s=368 (bar 28 mm, entry offset -3.7 mm) heading S
+ 43.109 NAV arrived at known node 16 (pose error 18 mm)
+ 43.109 NAV node 16: take S (S)
+ 43.628 EVENT JUNCTION L0 S1 R1 at s=295 (bar 27 mm, entry offset -0.0 mm) heading S
+ 43.628 NAV arrived at known node 15 (pose error 2 mm)
+ 43.628 NAV node 15: take R (W)
+ 45.139 EVENT JUNCTION L0 S1 R1 at s=403 (bar 27 mm, entry offset 0.0 mm) heading W
+ 45.139 MAP new node 18 at (1295, 678) exits=NE-W type=0
+ 45.139 NAV node 18: take S (W)
+ 45.899 EVENT JUNCTION L0 S0 R1 at s=342 (bar 27 mm, entry offset 0.0 mm) heading W
+ 47.353 EVENT JUNCTION L1 S1 R0 at s=379 (bar 30 mm, entry offset 0.0 mm) heading N
+ 47.353 MAP new node 19 at (953, 1058) exits=N-SW type=0
+ 47.353 EXP heading for frontier node 18 (1 steps, 721 mm)
+ 47.353 NAV node 19: take B (S)
+ 48.792 EVENT JUNCTION L1 S0 R0 at s=386 (bar 29 mm, entry offset -0.0 mm) heading S
+ 50.029 EVENT JUNCTION L1 S1 R0 at s=352 (bar 29 mm, entry offset -0.0 mm) heading E
+ 50.029 NAV arrived at known node 18 (pose error 12 mm)
+ 50.029 NAV node 18: take L (N)
+ 51.321 EVENT JUNCTION L0 S0 R1 at s=307 (bar 27 mm, entry offset -5.9 mm) heading N
+ 52.832 EVENT JUNCTION L1 S0 R1 at s=400 (bar 29 mm, entry offset -0.0 mm) heading E
+ 52.832 MAP loop closure at node 16 (odometry error 14 mm after 708 mm)
+ 52.832 EXP heading for frontier node 17 (1 steps, 359 mm)
+ 52.832 NAV node 16: take L (N)
+ 54.071 EVENT JUNCTION L1 S1 R0 at s=361 (bar 28 mm, entry offset -0.0 mm) heading N
+ 54.071 NAV arrived at known node 17 (pose error 10 mm)
+ 54.071 NAV node 17: take S (N)
+ 54.722 EVENT JUNCTION L1 S0 R0 at s=284 (bar 28 mm, entry offset -0.0 mm) heading N
+ 56.245 EVENT JUNCTION L1 S0 R0 at s=413 (bar 28 mm, entry offset -2.5 mm) heading W
+ 57.512 EVENT JUNCTION L1 S0 R1 at s=298 (bar 30 mm, entry offset -7.5 mm) heading S
+ 57.512 MAP new node 20 at (1286, 1308) exits=NE-W type=0
+ 57.512 EXP heading for frontier node 17 (1 steps, 995 mm)
+ 57.512 NAV node 20: take B (N)
+ 58.804 EVENT JUNCTION L0 S0 R1 at s=304 (bar 28 mm, entry offset -7.5 mm) heading N
+ 60.085 EVENT JUNCTION L0 S0 R1 at s=391 (bar 28 mm, entry offset -7.3 mm) heading E
+ 61.237 EVENT JUNCTION L0 S1 R1 at s=294 (bar 28 mm, entry offset 10.0 mm) heading S
+ 61.237 NAV arrived at known node 17 (pose error 23 mm)
+ 61.237 NAV node 17: take R (W)
+ 62.769 EVENT JUNCTION L0 S1 R1 at s=411 (bar 27 mm, entry offset 0.0 mm) heading W
+ 62.769 MAP loop closure at node 20 (odometry error 15 mm after 411 mm)
+ 62.769 NAV node 20: take S (W)
+ 63.533 EVENT JUNCTION L1 S1 R1 at s=342 (bar 29 mm, entry offset 0.0 mm) heading W
+ 63.533 MAP new node 21 at (944, 1308) exits=NESW type=0
+ 63.533 NAV node 21: take S (W)
+ 63.538 REFEREE checkpoint 3 crossed (t_run=59.9s)
+ 64.164 EVENT JUNCTION L0 S0 R1 at s=285 (bar 27 mm, entry offset 0.0 mm) heading W
+ 65.430 EVENT JUNCTION L1 S0 R0 at s=295 (bar 29 mm, entry offset 0.0 mm) heading N
+ 67.508 EVENT JUNCTION L1 S0 R0 at s=657 (bar 29 mm, entry offset -0.0 mm) heading W
+ 68.792 EVENT GOAL: white for 70 mm, box entry at (2, 1330), motor trim +0.012
+ 68.792 LED red ON
+ 68.792 STATE DRY_RUN -> GOAL_CONFIRMATION
+ 68.793 REFEREE dry run complete at 65.16 s
+ 69.387 DRY RUN complete in 65.1 s (robot clock)
+ 69.387 STATE GOAL_CONFIRMATION -> MAP_VALIDATION
+ 69.388 MAP validation: 23 nodes, 26 edges, 0 problems, frontier=1
+ 69.388 STATE MAP_VALIDATION -> ROUTE_PLANNING
+ 69.389 ROUTE 13 steps, 6347 mm, 10 turns; unexplored lower bound 5784 mm -> may not be shortest
+ 69.389 ROUTE actions at nodes: SRRLRSSSSSLSS
+ 69.389 STATE ROUTE_PLANNING -> WAIT_FOR_ACTUAL_RUN
+ 69.890 SIM power cycle (1952 bytes in flash)
+ 69.889 STORE loaded: stage=2 nodes=23 edges=26 route=13 cal=1
+ 69.890 STATE BOOT -> IDLE
+ 70.250 STATE IDLE -> ARMED
+ 70.950 STATE ARMED -> ACTUAL_RUN
+ 71.426 EVENT JUNCTION L1 S0 R1 at s=285 (bar 30 mm, entry offset -7.5 mm) heading N
+ 71.426 NAV arrived at known node 1 (pose error 3 mm)
+ 71.426 NAV node 1: take R (E)
+ 72.595 EVENT JUNCTION L1 S0 R1 at s=382 (bar 29 mm, entry offset 0.4 mm) heading E
+ 72.595 NAV arrived at known node 3 (pose error 13 mm)
+ 72.595 NAV node 3: take R (S)
+ 73.568 EVENT JUNCTION L1 S1 R0 at s=205 (bar 31 mm, entry offset -7.5 mm) heading S
+ 73.568 NAV arrived at known node 5 (pose error 5 mm)
+ 73.568 NAV node 5: take L (E)
+ 74.745 EVENT JUNCTION L1 S0 R1 at s=383 (bar 29 mm, entry offset -0.6 mm) heading E
+ 74.745 NAV arrived at known node 7 (pose error 8 mm)
+ 74.745 NAV node 7: take R (S)
+ 75.868 EVENT JUNCTION L1 S0 R0 at s=338 (bar 28 mm, entry offset 7.5 mm) heading S
+ 76.903 EVENT JUNCTION L1 S1 R0 at s=302 (bar 29 mm, entry offset -6.9 mm) heading E
+ 76.903 NAV arrived at known node 9 (pose error 17 mm)
+ 76.903 NAV node 9: take S (E)
+ 77.255 EVENT JUNCTION L1 S1 R0 at s=319 (bar 28 mm, entry offset -0.6 mm) heading E
+ 77.255 NAV arrived at known node 10 (pose error 6 mm)
+ 77.255 NAV node 10: take S (E)
+ 77.665 EVENT JUNCTION L1 S0 R0 at s=336 (bar 28 mm, entry offset 0.0 mm) heading E
+ 79.013 EVENT JUNCTION L1 S1 R0 at s=632 (bar 28 mm, entry offset -3.7 mm) heading N
+ 79.013 NAV arrived at known node 11 (pose error 6 mm)
+ 79.013 NAV node 11: take S (N)
+ 79.322 EVENT JUNCTION L1 S1 R0 at s=278 (bar 29 mm, entry offset -6.5 mm) heading N
+ 79.322 NAV arrived at known node 15 (pose error 13 mm)
+ 79.322 NAV node 15: take S (N)
+ 79.649 EVENT JUNCTION L1 S1 R0 at s=296 (bar 28 mm, entry offset -0.0 mm) heading N
+ 79.649 NAV arrived at known node 16 (pose error 2 mm)
+ 79.649 NAV node 16: take S (N)
+ 80.078 EVENT JUNCTION L1 S1 R0 at s=355 (bar 28 mm, entry offset -0.0 mm) heading N
+ 80.078 NAV arrived at known node 17 (pose error 4 mm)
+ 80.078 NAV node 17: take L (W)
+ 81.216 EVENT JUNCTION L0 S1 R1 at s=414 (bar 28 mm, entry offset 8.4 mm) heading W
+ 81.216 NAV arrived at known node 20 (pose error 15 mm)
+ 81.216 NAV node 20: take S (W)
+ 81.596 EVENT JUNCTION L1 S1 R1 at s=346 (bar 28 mm, entry offset -0.0 mm) heading W
+ 81.596 NAV arrived at known node 21 (pose error 4 mm)
+ 81.596 NAV node 21: take S (W)
+ 81.959 EVENT JUNCTION L0 S0 R1 at s=289 (bar 27 mm, entry offset -0.0 mm) heading W
+ 83.022 EVENT JUNCTION L1 S0 R0 at s=293 (bar 29 mm, entry offset 5.3 mm) heading N
+ 84.456 EVENT JUNCTION L1 S0 R0 at s=664 (bar 29 mm, entry offset -0.0 mm) heading W
+ 85.511 EVENT GOAL: white for 70 mm, box entry at (-9, 1320), motor trim -0.006
+ 85.511 LED red ON
+ 85.511 STATE ACTUAL_RUN -> GOAL_CONFIRMATION
+ 85.512 REFEREE actual run complete at 15.26 s
+ 86.041 ACTUAL RUN complete in 15.1 s (robot clock)
+ 86.041 STATE GOAL_CONFIRMATION -> FINISHED

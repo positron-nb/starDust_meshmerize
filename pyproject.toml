@@ -1,0 +1,17 @@
+[project]
+name = "meshmerize-robot"
+version = "1.1.0"
+description = "Autonomous white-line maze-solving robot for Techfest IIT Bombay Meshmerize 2026-27: firmware core, simulator, tools"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "pygame>=2.5", "pytest>=8.0", "matplotlib>=3.8", "ziglang>=0.13"]
+
+[project.optional-dependencies]
+firmware = ["platformio>=6.1"]
+cad = ["cadquery>=2.4"]
+
+[tool.pytest.ini_options]
+testpaths = ["simulator/tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
